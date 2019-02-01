@@ -1,4 +1,22 @@
 body{
 	font-family: 'Raleway', sans-serif;
 }
+header{
+	background: url("../img/background_header.jpg") no-repeat;
+	height: 750px;
+	background-size: cover;
+}
+#logotipo{
+	margin-top: 40px;
+}
+header .nav{
+	justify-content: flex-end;
+}
+header .nav-link{
+	font-size: 13px;
+	padding-top: 40px;
+}
+header .nav-link:hover{
+	background: #fff;
+	color: #31344e;
 }
