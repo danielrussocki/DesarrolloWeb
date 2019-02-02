@@ -7,16 +7,41 @@ header{
 	background-size: cover;
 }
 #logotipo{
-	margin-top: 40px;
+	margin-top: 38px;
+	margin-bottom: 38px;
 }
 header .nav{
 	justify-content: flex-end;
 }
 header .nav-link{
 	font-size: 13px;
-	padding-top: 40px;
+	padding-top: 38px;
+	padding-bottom: 38px;
+	color: #cbccd3;
+	font-weight: bold;
 }
 header .nav-link:hover{
 	background: #fff;
 	color: #31344e;
 }
+.rectangulo{
+	height: 1px;
+	justify-content: flex-end;
+	background-color: #505167;
+}
+.main{
+	color: #fff;
+	padding: 150px 150px;
+	text-align: center;
+} 
+ .titulo{
+ 	font-size: 50px;
+	font-weight: bold;
+ }
+ .boton{
+ 	padding-top: 80px;
+ }
+ .btn{
+ 	font-size: 12px;
+ 	padding: 18px 54px;
+ }
