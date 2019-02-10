@@ -24,6 +24,23 @@ header .nav-link:hover{
 	background: #fff;
 	color: #31344e;
 }
+.mt-150{
+	margin-top: 150px;
+}
+.mb-150{
+	margin-bottom: 150px;
+}
+.names{
+	font-size: 1.4rem;
+	color: #3b3e41;
+}
+.name-color{
+	color: #e94a4a;
+	font-size: .84rem;
+}
+.introduction-name{
+	font-size: .88rem;
+}
 .rectangulo{
 	height: 1px;
 	justify-content: flex-end;
@@ -31,13 +48,68 @@ header .nav-link:hover{
 }
 .main{
 	color: #fff;
-	padding: 150px 150px;
+	padding: 150px;
 	text-align: center;
-} 
- .titulo{
- 	font-size: 50px;
+}
+.titulo{
 	font-weight: bold;
- }
+}
+@media screen and (min-width: 715px) {
+	#logotipo{
+		margin-top: 38px;
+		margin-bottom: 38px;
+		width: 189px;
+	}
+}
+@media screen and (min-width: 420px) and (max-width: 715px) {
+	.titulo{
+		font-size: 1.6rem;
+	}
+	body{
+		font-size: .8rem;
+	}
+	.main{
+		padding: 105px 5px;
+	}
+	#logotipo{
+		width: 400px;
+	}
+}
+@media screen and (min-width: 715px) and (max-width: 835px) {
+	.titulo {
+		font-size: 30px;
+	}
+	body{
+		font-size: .8rem;
+	}
+	.main{
+		padding: 105px 30px;
+	}
+}
+
+@media screen and (min-width: 835px) and (max-width: 1080px) {
+	.titulo {
+		font-size: 40px;
+	}
+	body{
+		font-size: .9rem;
+	}
+	.main{
+		padding: 100px
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.titulo {
+		font-size: 50px;
+	}
+	body{
+		font-size: 1rem;
+	}
+	.main{
+		padding: 150px;
+	}
+}
  .boton{
  	padding-top: 80px;
  }
